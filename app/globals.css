@@ -31,3 +31,20 @@ body {
     text-wrap: balance;
   }
 }
+@font-face {
+  font-family: Founder_Grotesk;
+  src: url("/FOUNDERSGROTESK.ttf");
+}
+
+@font-face {
+  font-family: NeueMontreal;
+  src: url("/NeueMontreal-Regular.ttf");
+}
+
+.font1{
+  font-family: Founder_Grotesk;
+}
+
+.font2{
+  font-family: NeueMontreal;
+}
