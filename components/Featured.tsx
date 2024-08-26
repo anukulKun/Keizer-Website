@@ -2,7 +2,7 @@ import React from "react";
 
 function Features() {
   return (
-    <div className="w-full py-20 bg-zinc-100">
+    <div className="w-full py-20 bg-zinc-100 font-font1">
       <div className="w-full border-b-[1.5px] border-zinc-400 pb-8 px-10">
         <h1 className="text-[8vh]">Featured projects</h1>
       </div>

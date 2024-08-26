@@ -31,14 +31,14 @@ body {
     text-wrap: balance;
   }
 }
-@font-face {
+/* @font-face {
   font-family: Founder_Grotesk;
-  src: url("/FOUNDERSGROTESK.ttf");
+  src: url("../public/fonts/FOUNDERSGROTESK.ttf");
 }
 
 @font-face {
   font-family: NeueMontreal;
-  src: url("/NeueMontreal-Regular.ttf");
+  src: url("../public/fonts/NeueMontreal-Regular.ttf");
 }
 
 .font1{
@@ -47,4 +47,4 @@ body {
 
 .font2{
   font-family: NeueMontreal;
-}
+} */

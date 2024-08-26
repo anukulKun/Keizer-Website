@@ -2,9 +2,9 @@ import React from 'react'
 
 function About() {
   return (
-    <div  data-scroll data-scroll-section data-scroll-speed="-.2"  className=' w-full p-20 bg-[#CDEA68] rounded-tl-3xl rounded-tr-3xl '>
+    <div  data-scroll data-scroll-section data-scroll-speed="-.2"  className='font-font1 w-full p-20 bg-[#CDEA68] rounded-tl-3xl rounded-tr-3xl '>
 
-        <h1 className='font2 text-[3.5vw] leading-[3.5vw] tracking-normal'>Ochi is a strategic presentation agency for forward-thinking businesses that need to raise funds, sell prod­ucts, ex­plain com­plex ideas, and hire great peo­ple.</h1>
+        <h1 className='font-font1 text-[3.5vw] leading-[3.5vw] tracking-normal'>Ochi is a strategic presentation agency for forward-thinking businesses that need to raise funds, sell prod­ucts, ex­plain com­plex ideas, and hire great peo­ple.</h1>
 
         <div className='w-full flex gap-5 border-t-[2px] mt-20 border-[#9eaa72]'>
 
