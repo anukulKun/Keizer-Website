@@ -1,10 +1,18 @@
+"use client"
+
 import React, { useEffect, useState } from 'react'
 import Image from 'next/image';
 import logo from "@/public/Logo/meaw3.svg"
+import Link from 'next/link';
+import { useRouter } from 'next/router';
+
+// const router = useRouter();
 
 function Navbar() {
   const [showNavbar, setShowNavbar] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
+  
+  // const router = useRouter(); 
 
   const controlNavbar = () => {
     if (typeof window !== 'undefined') {
@@ -16,6 +24,14 @@ function Navbar() {
       setLastScrollY(window.scrollY);
     }
   };
+
+  const links = [
+    { name: 'Home', href: '/' },
+    { name: 'Services', href: '/services' },
+    { name: 'Our work', href: '/work' },
+    { name: 'About Us', href: '/about' },
+    { name: 'Contact us', href: './contact' },
+  ];
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
@@ -33,13 +49,13 @@ function Navbar() {
         showNavbar ? 'translate-y-0' : '-translate-y-full'
       }`}
     >
-      
         <Image className='' width={100} height={100} alt='logo' src={logo}/>
-        
-
+    
       <div className="links flex gap-8">
-        {['Services', 'Our work', 'About Us', 'Insights', 'Contact'].map((item, index) => (
-          <a key={index} className={`text-md capitalize font-light ${index === 4 && 'ml-36'}`}>{item}</a>
+        {links.map((link, index) => (
+          <Link key={index} href={link.href}>
+            <div className={`text-md capitalize font-light ${index === 4 && 'ml-48'}`}>{link.name}</div>
+          </Link>
         ))}
       </div>
     </div>

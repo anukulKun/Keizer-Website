@@ -5,11 +5,13 @@ import Pages from '@/components/Pages'
 
 
 
+
 function page() {
 
   return (
     <div>
       <Pages />
+
     </div>
   )
 }

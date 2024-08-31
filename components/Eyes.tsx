@@ -19,8 +19,6 @@ function Eyes() {
         };
 
         window.addEventListener("mousemove", handleMouseMove);
-
-        // Cleanup on component unmount
         return () => {
             window.removeEventListener("mousemove", handleMouseMove);
         };

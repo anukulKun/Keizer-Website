@@ -25,7 +25,7 @@ function Features() {
               (item, idx) => (
                 <p
                   key={idx}
-                  className="border-[1px] border-zinc-900 mt-4 mr-3 px-4 py-1 text-sm uppercase rounded-3xl cursor-pointer hover:bg-zinc-800 hover:text-zinc-200 duration-200"
+                  className="border-[1px] transition-all duration-300 ease-in-out border-zinc-900 mt-4 mr-3 px-4 py-1 text-sm uppercase rounded-3xl cursor-pointer hover:bg-zinc-800 hover:text-zinc-200 "
                 >
                   {item}
                 </p>
@@ -50,7 +50,7 @@ function Features() {
             {["agency", "company presentation"].map((item, idx) => (
               <p
                 key={idx}
-                className="border-[1px] border-zinc-900 mt-4 mr-3 px-4 py-1 text-sm uppercase rounded-3xl cursor-pointer hover:bg-zinc-800 hover:text-zinc-200 duration-200"
+                className="border-[1px] border-zinc-900 mt-4 mr-3 px-4 py-1 text-sm uppercase rounded-3xl cursor-pointer transition-all duration-300 ease-in-out hover:bg-zinc-800 hover:text-zinc-200 "
               >
                 {item}
               </p>

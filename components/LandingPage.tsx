@@ -25,12 +25,14 @@ function LandingPage() {
         </div> 
 
         <div className='border-t-2 border-black font-font1 mt-32 flex justify-between items-center px-20 py-5'>
-            {["For Public and Private Companies", "From the First Pitch to IPO"].map((item, index)=>
+            {["For Public and Private Companies", "From making websites to presentations"].map((item, index)=>
                 <p key={index} className='text-md font-light tracking-normal leading-none'>{item}</p>
             )}
-            <div className='start flex gap-2'>
-                <div className='px-4 py-[1.75px] uppercase font-light text-sm border-[1px] border-black rounded-full flex justify-center items-center tracking-normal'>Start the project</div>
-                <div className='w-8 h-8 flex items-center justify-center border-[1px] border-black rounded-full '>
+            <div className="start flex gap-2 cursor-pointer group">
+                <div className="px-4 py-[1.75px] uppercase font-light text-sm border-[1px] border-black rounded-full flex justify-center items-center tracking-normal group-hover:bg-zinc-800 group-hover:text-zinc-200 transition-all duration-300 ease-in-out">
+                    Start the project
+                </div>
+                <div className="w-8 h-8 flex items-center justify-center border-[1px] border-black rounded-full group-hover:bg-zinc-800 group-hover:text-zinc-200 transition-all duration-300 ease-in-out">
                     <GoArrowUpRight />
                 </div>
             </div>
