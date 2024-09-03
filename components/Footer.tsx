@@ -4,7 +4,7 @@ import logo from '@/public/Logo/meaw3.svg'
 function Footer() {
   return (
 
-    <div className='w-full h-screen p-20 flex font-fontt'>
+    <div className='w-full h-screen p-20 flex font-fontt  data-scroll data-scroll-section data-scroll-speed="-0." '>
 
       <div className='w-1/2 h-full flex flex-col justify-between'>
 

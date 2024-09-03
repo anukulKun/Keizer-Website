@@ -3,7 +3,7 @@ import Cards from "./Cards";
 
 function Features() {
   return (
-    <div className="w-full py-20 bg-zinc-100 font-font1">
+    <div data-scroll data-scroll-section data-scroll-speed="-0.2 " className="w-full py-20 bg-zinc-100 font-font1">
       <div className="w-full border-b-[1.5px] border-zinc-400 pb-8 px-10">
         <h1 className="text-[8vh]">Featured projects</h1>
       </div>
@@ -59,7 +59,7 @@ function Features() {
           </div>
         </div>
       </div>
-      <Cards/>
+      {/* <Cards/> */}
     </div>
   );
 }
