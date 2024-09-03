@@ -50,7 +50,7 @@ export default function Form() {
             placeholder="Company name type here"
           />
           < br/>
-          I'm looking for a partner to help me with 
+          I&apos;m looking for a partner to help me with 
           <input 
             type="text"
             name="goal"
@@ -78,7 +78,7 @@ export default function Form() {
             placeholder="name@example.com"
           /> 
           to start the conversation.
-          Optionally, i’m sharing more:
+          Optionally, i&apos;m sharing more:
           <input 
             type="text"
             name="details"

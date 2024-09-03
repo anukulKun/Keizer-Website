@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 function Cards() {
   return (
@@ -10,7 +11,7 @@ function Cards() {
             <p>Project 1</p>
           </div>
           <div className="w-full mt-7 rounded-xl overflow-hidden">
-            <img
+            <Image
               src="https://ochi.design/wp-content/uploads/2023/10/Fyde_Illustration_Crypto_2-1326x1101.png"
               alt="Images"
               className="cursor-pointer"
@@ -36,7 +37,7 @@ function Cards() {
             <p>Project 2</p>
           </div>
           <div className="w-full mt-7 rounded-xl overflow-hidden">
-            <img
+            <Image
               src="https://ochi.design/wp-content/uploads/2022/09/Vise_front2-1326x1101.jpg"
               alt="Images"
               className="cursor-pointer"

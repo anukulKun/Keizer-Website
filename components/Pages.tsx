@@ -4,7 +4,6 @@ import Navbar from './Navbar'
 import LandingPage from './LandingPage'
 import Marque from './Marque'
 import About from './About'
-import Eyes from './Eye'
 import Featured from './Featured'
 import Footer from './Footer'
 import LocomotiveScroll from 'locomotive-scroll';

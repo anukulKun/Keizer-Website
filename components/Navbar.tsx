@@ -1,20 +1,15 @@
 "use client"
 
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState, useCallback } from 'react';
 import Image from 'next/image';
-import logo from "@/public/Logo/meaw3.svg"
+import logo from "@/public/Logo/meaw3.svg";
 import Link from 'next/link';
-import { useRouter } from 'next/router';
-
-// const router = useRouter();
 
 function Navbar() {
   const [showNavbar, setShowNavbar] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
-  
-  // const router = useRouter(); 
 
-  const controlNavbar = () => {
+  const controlNavbar = useCallback(() => {
     if (typeof window !== 'undefined') {
       if (window.scrollY > lastScrollY) {
         setShowNavbar(false);
@@ -23,7 +18,7 @@ function Navbar() {
       }
       setLastScrollY(window.scrollY);
     }
-  };
+  }, [lastScrollY]);
 
   const links = [
     { name: 'Home', href: '/' },
@@ -41,7 +36,7 @@ function Navbar() {
         window.removeEventListener('scroll', controlNavbar);
       };
     }
-  }, [lastScrollY]);
+  }, [controlNavbar]);
 
   return (
     <div
@@ -62,5 +57,4 @@ function Navbar() {
   );
 }
 
-
-export default Navbar
+export default Navbar;
