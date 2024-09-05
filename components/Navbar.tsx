@@ -25,7 +25,7 @@ function Navbar() {
     { name: 'Services', href: '/services' },
     { name: 'Our work', href: '/work' },
     { name: 'About Us', href: '/about' },
-    { name: 'Contact us', href: './contact' },
+    { name: 'Contact us', href: '/contact' },
   ];
 
   useEffect(() => {

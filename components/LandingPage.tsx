@@ -1,24 +1,40 @@
 import { motion } from 'framer-motion';
 import React from 'react'
 import { GoArrowUpRight } from "react-icons/go";
+import Image from 'next/image'
 
 
 function LandingPage() {
   return (
-    <div data-scroll data-scroll-section data-scroll-speed="-.6" className=' h-screen w-full pt-2'>
+    <div data-scroll data-scroll-section data-scroll-speed=".5" className=' h-screen w-full pt-2'>
 
         <div className='textstructure mt-32 px-20'>
             {["We create", "Eye-Opening", "presentations"].map((item, index)=>{
                 return (
                     <div key={index} className="masker">
                         <div className="w-fit flex">
+                            {index === 1 && (
+                                <motion.div
+                                initial={{ width: 0 }}
+                                animate={{ width: "8.75vw" }}
+                                transition={{ ease: [0.74, 0, 0.24, 1], duration: 1 }}
+                                className="mr-[1vw] rounded-md relative top-[1.2vw] h-[5.5vw] overflow-hidden"
+                                >
+                                <Image
+                                    src="/Images/2.jpg" 
+                                    height={100}
+                                    width={100}
+                                    alt="Animated Background"
+                                    className="object-cover w-full h-full"
+                                />
+                                </motion.div>
+                            )}
 
-                            {index === 1 && (<motion.div initial={{width: 0}} animate={{width: "8.75vw"}} transition={{ease: [0.74, 0, 0.24, 1], duration: 1}} className='mr-[1vw] rounded-md w-[8.75vw] bg-red-400 relative top-[1.2vw] h-[5.5vw]'></motion.div>)}
-
-                            <h1 className="leading-[7vw] text-[8.75vw] flex items-center uppercase tracking-normal text-8xl font-bold font-fontt">{item}
+                            <h1 className="leading-[7vw] text-[8.75vw] flex items-center uppercase tracking-normal text-8xl font-bold font-fontt">
+                                {item}
                             </h1>
-
                         </div>
+
                     </div>
             );
             })}           

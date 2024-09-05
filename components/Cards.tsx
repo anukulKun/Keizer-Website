@@ -12,6 +12,9 @@ function Cards() {
           </div>
           <div className="w-full mt-7 rounded-xl overflow-hidden">
             <Image
+            
+            height={1000}
+            width={1000}
               src="https://ochi.design/wp-content/uploads/2023/10/Fyde_Illustration_Crypto_2-1326x1101.png"
               alt="Images"
               className="cursor-pointer"
@@ -40,6 +43,9 @@ function Cards() {
             <Image
               src="https://ochi.design/wp-content/uploads/2022/09/Vise_front2-1326x1101.jpg"
               alt="Images"
+              height={1000}
+              width={1000}
+  
               className="cursor-pointer"
             />
           </div>

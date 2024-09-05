@@ -5,6 +5,7 @@ import LocomotiveScroll from 'locomotive-scroll';
 import { motion } from 'framer-motion';
 import { GoArrowUpRight } from "react-icons/go";
 import Footer from '@/components/Footer';
+import Image from 'next/image'; // Import Image from Next.js
 
 function Page() {
 
@@ -31,8 +32,16 @@ function Page() {
                       initial={{ width: 0 }}
                       animate={{ width: "8.75vw" }}
                       transition={{ ease: [0.74, 0, 0.24, 1], duration: 1 }}
-                      className='mr-[1vw] rounded-md w-[8.75vw] bg-red-400 relative top-[1.2vw] h-[5.5vw]'
-                    />
+                      className='mr-[1vw] relative top-[1.2vw] h-[5.5vw]'
+                    >
+                      <Image
+                        src="/Images/79.png" 
+                        height={1000}
+                        width={1000}
+                        alt="Animated Background"
+                        className="object-cover w-full h-full rounded-2xl"
+                      />
+                    </motion.div>
                   )}
                   <h1 className="leading-[7vw] text-[8.75vw] flex items-center uppercase tracking-normal text-8xl font-bold font-fontt">{item}</h1>
                 </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 function About() {
   return (
@@ -15,7 +16,17 @@ function About() {
             </button> 
           </div>
 
-          <div className='w-1/2 rounded-3xl h-[70vh] mt-5 bg-red-300'></div>
+          <div className='w-1/2  h-[70vh] mt-5 '>
+            <Image
+            
+              src="/Images/12.png" 
+              height={1000}
+              width={1000}
+              alt="Animated Background"
+              className="object-cover w-full h-full rounded-2xl"
+          />
+          
+          </div>
 
         </div>
     </div>

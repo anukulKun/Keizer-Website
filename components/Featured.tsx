@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 function Features() {
   return (
-    <div data-scroll data-scroll-section data-scroll-speed="-0.2 " className="w-full py-20 bg-zinc-100 font-font1">
+    <div data-scroll data-scroll-section data-scroll-speed="-0.1 " className="w-full py-20 bg-zinc-100 font-font1">
       <div className="w-full border-b-[1.5px] border-zinc-400 pb-8 px-10">
         <h1 className="text-[8vh]">Featured projects</h1>
       </div>
@@ -17,7 +17,9 @@ function Features() {
           <div className="w-full mt-7 rounded-xl overflow-hidden">
             <Image
               src="https://ochi.design/wp-content/uploads/2023/10/Fyde_Illustration_Crypto_2-1326x1101.png"
-              alt="Images"
+              alt="Images"     
+              height={1000}
+              width={1000}
               className="cursor-pointer"
             />
           </div>
@@ -41,11 +43,14 @@ function Features() {
             <p>Project 2</p>
           </div>
           <div className="w-full mt-7 rounded-xl overflow-hidden">
-            <Image
-              src="https://ochi.design/wp-content/uploads/2022/09/Vise_front2-1326x1101.jpg"
-              alt="Images"
-              className="cursor-pointer"
-            />
+          <Image
+            src="https://ochi.design/wp-content/uploads/2022/09/Vise_front2-1326x1101.jpg"
+            alt="Images"
+            height={1000}
+            width={1000}
+            className="cursor-pointer"
+          />
+
           </div>
           <div className="flex items-center">
             {["agency", "company presentation"].map((item, idx) => (
