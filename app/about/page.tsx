@@ -5,7 +5,7 @@ import LocomotiveScroll from 'locomotive-scroll';
 import { motion } from 'framer-motion';
 import { GoArrowUpRight } from "react-icons/go";
 import Footer from '@/components/Footer';
-import Image from 'next/image'; // Import Image from Next.js
+import Image from 'next/image'; 
 
 function Page() {
 

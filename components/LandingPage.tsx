@@ -6,9 +6,9 @@ import Image from 'next/image'
 
 function LandingPage() {
   return (
-    <div data-scroll data-scroll-section data-scroll-speed=".5" className=' h-screen w-full pt-2'>
+    <div className=' h-screen w-full pt-2'>
 
-        <div className='textstructure mt-32 px-20'>
+        <div className='textstructure mt-36 px-20'>
             {["We create", "Eye-Opening", "presentations"].map((item, index)=>{
                 return (
                     <div key={index} className="masker">

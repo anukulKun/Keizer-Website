@@ -3,12 +3,12 @@ import Image from 'next/image'
 
 function Features() {
   return (
-    <div data-scroll data-scroll-section data-scroll-speed="-0.1 " className="w-full py-20 bg-zinc-100 font-font1">
+    <div  className="w-full py-20  font-font1">
       <div className="w-full border-b-[1.5px] border-zinc-400 pb-8 px-10">
         <h1 className="text-[8vh]">Featured projects</h1>
       </div>
 
-      <div className="w-full px-10 pt-14 flex items-center justify-center gap-4 bg-zinc-100 relative">
+      <div className="w-full px-10 pt-14 flex items-center justify-center gap-4  relative">
         <div className="w-1/2">
           <div className="flex gap-5 items-center">
             <div className="bg-zinc-800 rounded-full w-[12px] h-[12px]"></div>

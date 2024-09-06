@@ -31,7 +31,7 @@ function Page() {
                     className='mr-[1vw] rounded-md w-[8.75vw] relative top-[1.2vw] h-[5.5vw]'
                   >
                   <Image
-                              src="/Images/52.png" 
+                              src="/Images/00.png" 
                               height={1000}
                               width={1000}
                               alt="Animated Background"
