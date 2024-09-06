@@ -1,14 +1,27 @@
 import React from "react";
-import Image from 'next/image'
+import Cards from "./Cards";
 
 function Features() {
+
+  const project1 = {
+    title: 'Project 1',
+    imageUrl: 'https://ochi.design/wp-content/uploads/2023/10/Fyde_Illustration_Crypto_2-1326x1101.png',
+    tags: ['audio', 'copywriting', 'sales deck', 'slides design']
+  };
+
+  const project2 = {
+    title: 'Project 2',
+    imageUrl: 'https://ochi.design/wp-content/uploads/2022/09/Vise_front2-1326x1101.jpg',
+    tags: ['agency', 'company presentation']
+  };
+
   return (
     <div  className="w-full py-20  font-font1">
       <div className="w-full border-b-[1.5px] border-zinc-400 pb-8 px-10">
         <h1 className="text-[8vh]">Featured projects</h1>
       </div>
 
-      <div className="w-full px-10 pt-14 flex items-center justify-center gap-4  relative">
+      {/* <div className="w-full px-10 pt-14 flex items-center justify-center gap-4  relative">
         <div className="w-1/2">
           <div className="flex gap-5 items-center">
             <div className="bg-zinc-800 rounded-full w-[12px] h-[12px]"></div>
@@ -63,7 +76,18 @@ function Features() {
             ))}
           </div>
         </div>
-      </div>
+      </div> */}
+       <div>
+      <Cards
+        projectTitle1={project1.title}
+        imageUrl1={project1.imageUrl}
+        tags1={project1.tags}
+        projectTitle2={project2.title}
+        imageUrl2={project2.imageUrl}
+        tags2={project2.tags}
+      />
+    </div>
+
     </div>
   );
 }
