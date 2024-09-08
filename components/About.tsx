@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 function About() {
   return (
@@ -11,9 +12,11 @@ function About() {
 
           <div className='w-1/2'>
             <h1 className='text-[3.5vw] mt-5'>Our services:</h1>
+            <Link href={"/about"}>
             <button className='px-6 flex gap-10 items-center py-4 mt-3 bg-zinc-900 rounded-full text-white uppercase'>Read more
               <div className='w-2 h-2 bg-zinc-100 rounded-full'></div>
             </button> 
+            </Link>
           </div>
 
           <div className='w-1/2  h-[70vh] mt-5 '>

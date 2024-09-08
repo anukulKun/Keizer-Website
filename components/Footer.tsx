@@ -23,7 +23,7 @@ function Footer() {
 
         <div className="debt flex flex-col mt-28 leading-none text-[1.1vw] font-light font-font1">
             <div className='uppercase mb-5'>S:</div>
-            {["Instagram", "Twitter", "Linkdln", "GitHub"].map((item, index) =>(
+            {["Instagram", "Twitter", "linkedin", "GitHub"].map((item, index) =>(
                 <a key={index} className={`underline gap-9 capitalize font-light py-2`}>{item}</a>
             ) )}
         </div>

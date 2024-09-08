@@ -4,15 +4,15 @@ import Cards from "./Cards";
 function Features() {
 
   const project1 = {
-    title: 'Project 1',
-    imageUrl: 'https://ochi.design/wp-content/uploads/2023/10/Fyde_Illustration_Crypto_2-1326x1101.png',
-    tags: ['audio', 'copywriting', 'sales deck', 'slides design']
+    title: 'Gold Rush',
+    imageUrl: '/Images/19 (2).png',
+    tags: ['Capital Market Investment', 'DeFi', 'Digital Marketing']
   };
 
   const project2 = {
-    title: 'Project 2',
-    imageUrl: 'https://ochi.design/wp-content/uploads/2022/09/Vise_front2-1326x1101.jpg',
-    tags: ['agency', 'company presentation']
+    title: 'BONKPad',
+    imageUrl: '/Images/19 (3).png',
+    tags: ['DeFi', 'Crowdfunding']
   };
 
   return (

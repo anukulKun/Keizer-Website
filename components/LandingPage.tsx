@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import React from 'react'
 import { GoArrowUpRight } from "react-icons/go";
 import Image from 'next/image'
+import Link from 'next/link';
 
 
 function LandingPage() {
@@ -44,6 +45,7 @@ function LandingPage() {
             {["For Public and Private Companies", "From making websites to presentations"].map((item, index)=>
                 <p key={index} className='text-md font-light tracking-normal leading-none'>{item}</p>
             )}
+            <Link href={"/contact"}>
             <div className="start flex gap-2 cursor-pointer group">
                 <div className="px-4 py-[1.75px] uppercase font-light text-sm border-[1px] border-black rounded-full flex justify-center items-center tracking-normal group-hover:bg-zinc-800 group-hover:text-zinc-200 transition-all duration-300 ease-in-out">
                     Start the project
@@ -52,6 +54,7 @@ function LandingPage() {
                     <GoArrowUpRight />
                 </div>
             </div>
+            </Link>
         </div>
 
     </div>

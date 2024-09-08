@@ -6,6 +6,7 @@ import { motion } from 'framer-motion';
 import { GoArrowUpRight } from "react-icons/go";
 import Footer from '@/components/Footer';
 import Image from 'next/image'; 
+import Link from 'next/link';
 
 function Page() {
 
@@ -58,14 +59,15 @@ function Page() {
             <div className='w-1/2 flex justify-between'>
               <div className='writting w-[20vw]'>
                 <h1>
-                  In Ukrainian, ochi means eyes. It&apos;s not just a beautiful word, but our philosophy. Almost everything that needs to be communicated is better shown than explained.
+                At Keizer, we are visionaries who craft solutions for the modern digital age. Whether it's a Web2 or Web3 project, we believe in delivering designs that speak louder than words.
                   <br />
                   <br />
-                  We believe a great presentation evokes interest and drives business results far better than any saying can. Hence, we founded ochi to help you persuade colleagues and clients by creating eye-opening presentations.
+                  Our approach goes beyond mere aesthetics—it's about creating functional, intuitive experiences that captivate users and drive results. From apps and websites to e-commerce platforms, CRM systems, and even meme coin pages, we specialize in building innovative solutions that cater to all your digital needs.
                 </h1>
               </div>
+              <Link href="/work">
               <div className='pr-14'>
-                <div className="start flex gap-2 cursor-pointer group">
+                <div className="start cursor-pointer flex gap-2 cursor-pointer group">
                   <div className="px-4 py-[1.75px] uppercase font-light text-sm border-[1px] border-black rounded-full flex justify-center items-center tracking-normal group-hover:bg-zinc-800 group-hover:text-zinc-200 transition-all duration-300 ease-in-out">
                     Our works
                   </div>
@@ -74,6 +76,7 @@ function Page() {
                   </div>
                 </div>
               </div>
+              </Link>
             </div>
           </div>
         </div>
@@ -85,6 +88,7 @@ function Page() {
         </div>
 
         <div className='flex border-t-2 border-black mt-14'>
+          {/* <div className='flex border-t-2 border-black mt-14'>
           <div className='w-1/2 pl-14 mt-[2vh]'>
             <h1>We are Keizer design:</h1>
           </div>
@@ -99,7 +103,8 @@ function Page() {
               </h1>
             </div>
           </div>
-        </div>
+        </div> */}
+      </div>
       </div>
       <Footer />
     </div>
