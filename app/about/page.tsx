@@ -58,16 +58,17 @@ function Page() {
             </div>
             <div className='w-1/2 flex justify-between'>
               <div className='writting w-[20vw]'>
-                <h1>
-                At Keizer, we are visionaries who craft solutions for the modern digital age. Whether it's a Web2 or Web3 project, we believe in delivering designs that speak louder than words.
+              <h1>
+                  At Keizer, we are visionaries who craft solutions for the modern digital age. Whether it&apos;s a Web2 or Web3 project, we believe in delivering designs that speak louder than words.
                   <br />
                   <br />
-                  Our approach goes beyond mere aesthetics—it's about creating functional, intuitive experiences that captivate users and drive results. From apps and websites to e-commerce platforms, CRM systems, and even meme coin pages, we specialize in building innovative solutions that cater to all your digital needs.
+                  Our approach goes beyond mere aesthetics—it&apos;s about creating functional, intuitive experiences that captivate users and drive results. From apps and websites to e-commerce platforms, CRM systems, and even meme coin pages, we specialize in building innovative solutions that cater to all your digital needs.
                 </h1>
+
               </div>
               <Link href="/work">
               <div className='pr-14'>
-                <div className="start cursor-pointer flex gap-2 cursor-pointer group">
+                <div className="start cursor-pointer flex gap-2  group">
                   <div className="px-4 py-[1.75px] uppercase font-light text-sm border-[1px] border-black rounded-full flex justify-center items-center tracking-normal group-hover:bg-zinc-800 group-hover:text-zinc-200 transition-all duration-300 ease-in-out">
                     Our works
                   </div>
@@ -88,22 +89,6 @@ function Page() {
         </div>
 
         <div className='flex border-t-2 border-black mt-14'>
-          {/* <div className='flex border-t-2 border-black mt-14'>
-          <div className='w-1/2 pl-14 mt-[2vh]'>
-            <h1>We are Keizer design:</h1>
-          </div>
-          <div className='w-1/2 mt-[2vh] flex'>
-            <div className='writting w-1/3'>
-              <h1>
-                The team of designers, storytellers, and passionate collaborators, who work together to create industry-shifting presentations that win people&apos;s hearts and minds.
-                <br />
-                <br />
-                And we strive to become one of the most recognizable & influential presentation agencies of the time who does that.
-                <br />
-              </h1>
-            </div>
-          </div>
-        </div> */}
       </div>
       </div>
       <Footer />

@@ -8,7 +8,7 @@ import React, { useEffect } from 'react'
 function Page() {
 
   const project1 = {
-    title: 'Project 1',
+    title: 'GoldRush',
     imageUrl: '/Images/19 (2).png',
     tags: ['Capital Market Investment', 'DeFi', 'Digital Marketing'],
   };
