@@ -52,11 +52,18 @@ function Page() {
         </div>
 
         <div className='border-t-2 border-black mt-20 mb-12'>
+
+        <div className='w-[60%]'>
+          <h1 className='font-font1 text-[3.5vw] leading-[3.5vw] tracking-normal ml-14 mt-10 mb-10'>
+            We save businesses from ugly and ineffective presentations.
+          </h1>
+        </div>
           <div className='flex mt-[2vh]'>
             <div className='w-1/2 pl-14'>
               <h1>About us</h1>
             </div>
             <div className='w-1/2 flex justify-between'>
+            
               <div className='writting w-[20vw]'>
               <h1>
                   At Keizer, we are visionaries who craft solutions for the modern digital age. Whether it&apos;s a Web2 or Web3 project, we believe in delivering designs that speak louder than words.
@@ -81,15 +88,8 @@ function Page() {
             </div>
           </div>
         </div>
-
-        <div className='w-[60%]'>
-          <h1 className='font-font1 text-[3.5vw] leading-[3.5vw] tracking-normal ml-14'>
-            We save businesses from ugly and ineffective presentations.
-          </h1>
-        </div>
-
-        <div className='flex border-t-2 border-black mt-14'>
-      </div>
+        {/* <div className='flex border-t-2 border-black mt-14'>
+      </div> */}
       </div>
       <Footer />
     </div>
