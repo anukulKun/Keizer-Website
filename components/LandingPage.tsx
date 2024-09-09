@@ -22,7 +22,7 @@ function LandingPage() {
                                 className="mr-[1vw] rounded-md relative top-[1.2vw] h-[5.5vw] overflow-hidden"
                                 >
                                 <Image
-                                    src="/Images/2.jpg" 
+                                    src="/Images/fly.svg" 
                                     height={100}
                                     width={100}
                                     alt="Animated Background"
