@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server'
 import nodemailer from 'nodemailer'
 
 export async function POST(req: Request) {
-  const { name, company, goal, date, email, details, privacyPolicy } = await req.json()
+  const { name, company, goal, date, email, details, privacyPolicy } = await req.json();
   const Iemail = "keizerworks@gmail.com"
 
   const transporter = nodemailer.createTransport({
@@ -16,7 +16,7 @@ export async function POST(req: Request) {
 
   try {
     await transporter.sendMail({
-      from: Iemaill,
+      from: Iemail,
       to: 'keizerworks@gmail.com',
       subject: 'New Inquiry from Form Submission',
       text: `
