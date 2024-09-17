@@ -16,7 +16,7 @@ function Page() {
   }, []);
 
   return (
-    <div className='w-full bg-white text-black'>
+    <div className='w-full bg-[#e0e0e0] text-black'>
       <Navbar />
       <div className='contact w-full'>
         <div className='textstructure pt-32 pl-14'>

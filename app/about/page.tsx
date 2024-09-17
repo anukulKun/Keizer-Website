@@ -19,7 +19,7 @@ function Page() {
   }, []);
 
   return (
-    <div className='w-full bg-white text-black font-font1'>
+    <div className='w-full bg-[#e0e0e0] text-black font-font1'>
       <Navbar />
 
       <div>

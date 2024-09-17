@@ -26,7 +26,7 @@ export default function Form() {
     e.preventDefault()
 
     try {
-      const res = await fetch('/api/send-email', {
+      const res = await fetch('../app/api/send-email/route', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
