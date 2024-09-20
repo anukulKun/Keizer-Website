@@ -52,7 +52,7 @@ function Page() {
   }, []);
 
   return (
-    <div className='bg-[#e0e0e0] text-black'>
+    <div className='bg-[#FEFEFE] text-black'>
       <Navbar />
       <div className='leading-[7vw] text-[8.75vw] flex items-center uppercase tracking-normal text-8xl font-bold font-fontt pt-[16vh] pl-14'>
         WORK

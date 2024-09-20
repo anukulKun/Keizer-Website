@@ -72,7 +72,7 @@ export default function Form() {
             name="company"
             value={formData.company}
             onChange={handleChange}
-            className="w-[22vw] mx-2 placeholder:text-lg placeholder:text-center placeholder:text-[2.3vh] placeholder:tracking-tight text-center text-lg border-b border-gray-300 focus:outline-none focus:border-gray-500 bg-transparent"
+            className="w-[18.5vw] mx-2 placeholder:text-lg placeholder:text-center placeholder:text-[2.3vh] placeholder:tracking-tight text-center text-lg border-b border-gray-300 focus:outline-none focus:border-gray-500 bg-transparent"
             placeholder="Company name type here"
           />
           <br />
@@ -82,7 +82,7 @@ export default function Form() {
             name="goal"
             value={formData.goal}
             onChange={handleChange}
-            className="w-[31vw] mx-2 placeholder:text-lg placeholder:text-center text-center text-lg border-b border-gray-300 focus:outline-none focus:border-gray-500 bg-transparent"
+            className="w-[28vw] mx-2 placeholder:text-lg placeholder:text-center text-center text-lg border-b border-gray-300 focus:outline-none focus:border-gray-500 bg-transparent"
             placeholder="Your goal type here*"
           />
           With an idea of having that completed
@@ -91,7 +91,7 @@ export default function Form() {
             name="date"
             value={formData.date}
             onChange={handleChange}
-            className="w-[34vw] mx-2 placeholder:text-lg placeholder:text-center text-center text-lg placeholder:text-[2.3vh] placeholder:tracking-tight border-b border-gray-300 focus:outline-none focus:border-gray-500 bg-transparent"
+            className="w-[30vw] mx-2 placeholder:text-lg placeholder:text-center text-center text-lg placeholder:text-[2.3vh] placeholder:tracking-tight border-b border-gray-300 focus:outline-none focus:border-gray-500 bg-transparent"
             placeholder="Date*"
           />
           You can reach me at
@@ -109,7 +109,7 @@ export default function Form() {
             name="details"
             value={formData.details}
             onChange={handleChange}
-            className="w-[48vw] mx-2 placeholder:text-lg placeholder:text-center text-center text-lg placeholder:text-[2.3vh] placeholder:tracking-tight border-b border-gray-300 focus:outline-none focus:border-gray-500 bg-transparent"
+            className="w-[22.5vw] mx-2 placeholder:text-lg placeholder:text-center text-center text-lg placeholder:text-[2.3vh] placeholder:tracking-tight border-b border-gray-300 focus:outline-none focus:border-gray-500 bg-transparent"
             placeholder="Product details type here..."
           />
         </div>

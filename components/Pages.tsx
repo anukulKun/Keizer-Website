@@ -22,7 +22,7 @@ function Pages() {
     }, []);
 
     return (
-        <div className='min-h-screen w-full bg-[#e0e0e0] text-black'>
+        <div className='min-h-screen w-full bg-[#FEFEFE] text-black'>
           <Navbar/>
           <LandingPage/>
           <About/>          
